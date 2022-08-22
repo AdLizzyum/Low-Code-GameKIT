@@ -1,0 +1,118 @@
+.header {
+    padding-bottom: -100px;
+    background: #252525;
+    font-size: 30px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    color: #e8e8e8;
+    left: 6px;
+}
+
+a:hover {
+    color: grey;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+}
+
+body {
+    background: #1a1a1a;
+    color: #e8e8e8;
+}
+
+#my-canvas {
+    float: left;
+    position:relative;
+    background: #555555;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.canvas-container {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top:10px;
+    left: 14px;
+
+}
+
+#start-button {
+    position:absolute;
+    background: url("../img/playPause.PNG") right center;
+    background-size: 35px 35px;
+    height:40px;
+    width:40px;
+}
+
+#circle {
+    position: absolute;
+    top: -55px;
+    left: 696px;
+    pointer-events: none;
+}
+
+#grid {
+    position: relative;
+    top:30px;
+    left: 14px;
+    border: #555555 solid 1px;
+}
+
+.editor-container {
+    float:left;
+    position:relative;
+    width: 702px;
+    left:14px;
+    top:83px;
+}
+
+#editor, #output {
+    border: #555555 solid 1px;
+
+}
+
+#output {
+    height:300px;
+    width:700px;
+}
+
+#editor, #run-button {
+    position:relative;
+    top: 1px;
+}
+
+#editor {
+    float:left;
+    height: 38px;
+    width:660px;
+}
+
+#run-button {
+    background: url("../img/run.png") right center;
+    background-size: 40px 40px;
+    height:40px;
+    width:40px;
+}
+
+#run-button:hover {
+    background-color: #252525;
+}
+
+.ui-dialog .ui-widget .ui-widget-content .ui-corner-all .ui-front .ui-draggable .ui-resizableIn {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    top:21px;
+    left:147px;
+    display: block;
+}
+
+

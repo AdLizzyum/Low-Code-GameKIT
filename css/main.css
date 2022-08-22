@@ -1,0 +1,41 @@
+#header {
+	padding: 1px;
+	text-align: center;
+	background: #252525;
+	font-size: 30px;
+}
+
+body {
+	background:#1a1a1a;
+	color: #e8e8e8;
+	font-size: 1.25vw;
+}
+
+.tetris {
+	float: left;
+	margin-left:8.5%;
+	margin-top:2%;
+	background: #252525;
+	padding-bottom:10px;
+	width: 35%;
+	text-align:center;
+	padding-right: 2%;
+}
+
+img {
+	position:relative;
+	left:2.5%;
+	width: 100%;
+}
+
+h2 {
+	position:relative;
+	left:8px;
+	margin-top:1%;
+	top:10px;
+}
+
+a {
+	color:#e8e8e8;
+	text-decoration: none
+}
