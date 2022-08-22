@@ -1,0 +1,45 @@
+<html lang="de">
+<head>
+    <title>Tetris</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../css/tetris.css">
+    <script src="../scripts/tetris.js" charset="utf-8"></script>
+    <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+   <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#dialog" ).dialog({
+                position: { my: "left top", at: "left top", of: canvas}
+            });
+        } );
+    </script>-->
+</head>
+<body>
+<div class="header">
+    <a href="main.html">Home</a>
+    <h1>Customizable Tetris</h1>
+</div>
+<canvas id="my-canvas"></canvas>
+<div class="canvas-container">
+    <canvas id="circle" width="150" height="150"></canvas>
+    <button type="button" id="start-button" onclick="pauseGame()"></button>
+</div>
+<div class="grid-container">
+    <img id="grid" src="../img/grid2.png" alt="should be a picture of a grid">
+</div>
+<div class="editor-container">
+    <div id="output"></div>
+    <div id="editor"></div>
+    <button type="button" id="run-button" onclick="runCode()"></button>
+</div>
+
+<!--
+<div id="dialog" title="Huh?">
+    <p>This Tetris game is missing most of the usual blocks... Why don't you try to add some using the editor on the right?</p>
+</div>
+-->
+</body>
+</html>

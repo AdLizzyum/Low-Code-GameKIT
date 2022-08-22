@@ -1,0 +1,32 @@
+<html lang="de">
+<head>
+    <title>Asteroids</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="../css/asteroids.css">
+    <script src="../scripts/asteroids.js" charset="utf-8"></script>
+    <script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="header">
+    <a href="main.html">Home</a>
+    <h1>Customizable Asteroids</h1>
+</div>
+<div class="container">
+    <div class="game-container">
+        <canvas id ="gameCanvas" width="700" height="500"></canvas>
+        <div class="border-container" id="border-container">
+            <button type="button" id="start-button" onclick="pauseGame()"></button>
+        </div>
+    </div>
+    <div class="editor-container">
+        <div class="width-container">
+            <div id="output"></div>
+            <div id="editor"></div>
+            <button type="button" id="run-button" onclick="runCodeTwo()"></button>
+            <p id="keyCodeSens" tabindex="1">KeyCodes: Click here and press a key to see its keyCode!</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
